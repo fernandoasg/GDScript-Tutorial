@@ -1,7 +1,6 @@
 extends Node
 
 func _ready():
-	pass
-	
-func _process(delta):
-	pass
+	print("Hello, world!")
+	$Label.text = "Hello, world!"
+	$Label.modulate = Color.GREEN

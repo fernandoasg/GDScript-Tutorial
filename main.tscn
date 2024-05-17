@@ -4,3 +4,9 @@
 
 [node name="Main" type="Node"]
 script = ExtResource("1_n6m7f")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 151.0
+offset_bottom = 60.0
+text = "This is a label"
+horizontal_alignment = 1
